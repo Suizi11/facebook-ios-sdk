@@ -322,6 +322,7 @@
 		D55660171D91FF6600046113 /* bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = D55660161D91FF6600046113 /* bicycle.png */; };
 		DB38B6831AAF668100099656 /* FBSDKShareDialogMode.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38B6821AAF668100099656 /* FBSDKShareDialogMode.m */; };
 		DB38B6851AAF765900099656 /* FBSDKShareDialogMode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB38B6811AAF663600099656 /* FBSDKShareDialogMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1998C9B1E950D5D00FF67EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893774A51A3B805E00BE2807 /* CoreGraphics.framework */; };
 		EA3D468E1AA62A9500D0C7D5 /* FBSDKAppInviteDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D468C1AA62A9500D0C7D5 /* FBSDKAppInviteDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA3D468F1AA62A9500D0C7D5 /* FBSDKAppInviteDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3D468D1AA62A9500D0C7D5 /* FBSDKAppInviteDialog.m */; };
 		EA3D469D1AA66C5F00D0C7D5 /* FBSDKAppInviteContent.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3D469C1AA66C5F00D0C7D5 /* FBSDKAppInviteContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -590,6 +591,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1998C9B1E950D5D00FF67EF /* CoreGraphics.framework in Frameworks */,
 				8131FB1A1D261D8B000350FF /* FBSDKCoreKit.framework in Frameworks */,
 				8131FB4F1D261E5F000350FF /* UIKit.framework in Frameworks */,
 			);
@@ -1605,6 +1607,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CC1D261A7900B2E437 /* FBSDKShareKit-tvOS-Dynamic.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1612,6 +1615,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CC1D261A7900B2E437 /* FBSDKShareKit-tvOS-Dynamic.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
@@ -1619,6 +1623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CB1D261A7900B2E437 /* FBSDKShareKit-Dynamic.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1626,6 +1631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CB1D261A7900B2E437 /* FBSDKShareKit-Dynamic.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
@@ -1633,6 +1639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CD1D261A7900B2E437 /* FBSDKShareKit-tvOS.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1640,6 +1647,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CD1D261A7900B2E437 /* FBSDKShareKit-tvOS.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
@@ -1647,6 +1655,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CD1D261A7900B2E437 /* FBSDKShareKit-tvOS.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1654,6 +1663,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CD1D261A7900B2E437 /* FBSDKShareKit-tvOS.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
@@ -1675,6 +1685,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1682,6 +1693,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
@@ -1703,6 +1715,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Debug;
 		};
@@ -1710,6 +1723,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 819043CE1D261A7900B2E437 /* FBSDKShareKit.xcconfig */;
 			buildSettings = {
+				MODULEMAP_FILE = "$(SRCROOT)/FBSDKShareKit/sharekit-module.modulemap";
 			};
 			name = Release;
 		};
